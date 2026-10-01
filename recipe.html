@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #FFFFFF;
+      --ink:    #1A1A1A;
+      --muted:  #666666;
+      --rule:   #E5E5E5;
+      --accent: #C0392B;
+      --tag-bg: #F2F2F2;
+      --font:   'Georgia', serif;
+      --font-ui: system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* ── Back link ── */
+    .back-link {
+      display: inline-block;
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin: 1.5rem 0 0;
+    }
+    .back-link:hover { color: var(--accent); text-decoration: none; }
+
+    /* ── Recipe header ── */
+    .recipe-header {
+      border-bottom: 2px solid var(--ink);
+      padding: 1.5rem 0 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .recipe-header h1 {
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: normal;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta-row {
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .tag {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      background: var(--tag-bg);
+      border-radius: 999px;
+      padding: 0.2rem 0.6rem;
+      color: var(--muted);
+      cursor: pointer;
+      border: 1px solid #DDDDDD;
+      transition: border-color 0.12s, color 0.12s;
+    }
+    .tag:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ── Intro ── */
+    .intro {
+      font-style: italic;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+
+    /* ── Section headings ── */
+    .section-label {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── Ingredients ── */
+    .ingredients-section {
+      margin-bottom: 2.5rem;
+    }
+
+    .ingredients-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .ingredients-list li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 0.97rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .ingredients-list li::before {
+      content: '';
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 1px solid #BBBBBB;
+      border-radius: 2px;
+      flex-shrink: 0;
+      transition: background 0.1s;
+    }
+
+    .ingredients-list li.checked {
+      color: #AAAAAA;
+      text-decoration: line-through;
+    }
+
+    .ingredients-list li.checked::before {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* ── Steps ── */
+    .steps-section {
+      margin-bottom: 2.5rem;
+    }
+
+    .steps-list {
+      list-style: none;
+      counter-reset: steps;
+      padding: 0;
+    }
+
+    .steps-list li {
+      counter-increment: steps;
+      display: flex;
+      gap: 1rem;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 0.97rem;
+      align-items: flex-start;
+    }
+
+    .steps-list li::before {
+      content: counter(steps);
+      font-family: var(--font-ui);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
+      background: #FEF0EF;
+      border-radius: 50%;
+      min-width: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.1rem;
+      flex-shrink: 0;
+    }
+
+    /* ── Notes ── */
+    .notes-section {
+      background: #FAFAFA;
+      border-left: 3px solid var(--accent);
+      padding: 0.75rem 1rem;
+      margin-bottom: 2.5rem;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 1.5rem 0;
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+
+    /* ── Not found ── */
+    .not-found {
+      padding: 3rem 0;
+      font-family: var(--font-ui);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <a class="back-link" href="index.html">&larr; Back to all recipes</a>
+
+  <div id="content">
+    <!-- Filled by JS -->
+  </div>
+
+  <footer>
+    <p>Made with plain HTML &amp; JavaScript &mdash; hosted on GitHub Pages.</p>
+  </footer>
+
+</div>
+
+<script src="recipes.js"></script>
+<script>
+  function formatTag(tag) {
+    return tag.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  // Get recipe id from URL query string
+  const params = new URLSearchParams(window.location.search);
+  const id     = params.get('id');
+  const recipe = RECIPES.find(r => r.id === id);
+  const content = document.getElementById('content');
+
+  if (!recipe) {
+    content.innerHTML = `
+      <div class="not-found">
+        <p>Recipe not found. <a href="index.html">Back to all recipes.</a></p>
+      </div>`;
+  } else {
+    document.title = recipe.title + ' — My Recipes';
+
+    const tagsHtml = recipe.tags
+      .map(t => `<span class="tag" onclick="window.location='index.html?tag=${t}'">${formatTag(t)}</span>`)
+      .join('');
+
+    const ingredientsHtml = recipe.ingredients
+      .map(ing => `<li>${ing}</li>`)
+      .join('');
+
+    const stepsHtml = recipe.steps
+      .map(step => `<li>${step}</li>`)
+      .join('');
+
+    const notesHtml = recipe.notes
+      ? `<div class="notes-section">
+           <p class="section-label">Notes</p>
+           <p>${recipe.notes}</p>
+         </div>`
+      : '';
+
+    content.innerHTML = `
+      <div class="recipe-header">
+        <h1>${recipe.title}</h1>
+        <div class="meta-row">
+          <span>⏱ ${recipe.time}</span>
+          <span>🍽 Serves ${recipe.serves}</span>
+        </div>
+        <div class="tag-row">${tagsHtml}</div>
+      </div>
+
+      ${recipe.intro ? `<p class="intro">${recipe.intro}</p>` : ''}
+
+      <div class="ingredients-section">
+        <p class="section-label">Ingredients</p>
+        <ul class="ingredients-list" id="ingredientsList">
+          ${ingredientsHtml}
+        </ul>
+      </div>
+
+      <div class="steps-section">
+        <p class="section-label">Method</p>
+        <ol class="steps-list">${stepsHtml}</ol>
+      </div>
+
+      ${notesHtml}
+    `;
+
+    // Clickable ingredients (check off as you cook)
+    document.getElementById('ingredientsList').querySelectorAll('li').forEach(li => {
+      li.addEventListener('click', () => li.classList.toggle('checked'));
+    });
+  }
+
+  // Support clicking a tag on the recipe page to go back filtered
+  const tagParam = new URLSearchParams(window.location.search).get('tag');
+</script>
+</body>
+</html>

@@ -18,30 +18,6 @@ const RECIPES = [
 
 
 
-  {
-    id: "simple-tomato-pasta",
-    title: "Simple Tomato Pasta",
-    tags: ["comfort-food"],
-    time: "20 mins",
-    serves: "2",
-    intro: "A weeknight staple. Fast, satisfying, and endlessly adaptable.",
-    ingredients: [
-      "200g spaghetti",
-      "1 can (400g) crushed tomatoes",
-      "3 cloves garlic, minced",
-      "2 tbsp olive oil",
-      "Salt and pepper to taste",
-      "Fresh basil to serve"
-    ],
-    steps: [
-      "Cook spaghetti according to package directions until al dente. Reserve ½ cup pasta water before draining.",
-      "Heat olive oil in a pan over medium heat. Add garlic and cook 1–2 minutes until fragrant.",
-      "Add crushed tomatoes, season with salt and pepper, and simmer 10 minutes.",
-      "Toss drained pasta into the sauce, adding a splash of pasta water to loosen if needed.",
-      "Serve topped with fresh basil."
-    ],
-    notes: "Add a pinch of chili flakes to the garlic for a little heat."
-  },
 
     {
     id: "harty-har-stew",
@@ -91,7 +67,7 @@ const RECIPES = [
     ],
     steps: [
       "Microwave 1/2 cup of water until hot, then add and mix in annato powder",
-      "Chop bananas and pepper",
+      "Chop bananas and peppers",
       "Place all ingredients, except food coloring, in a sauce pan and bring to simmer 10-15 minutes until peppers are soft.",
       "Blend in blender once cooler until soft",
       "Add food coloring, if wanted, to desired redness."

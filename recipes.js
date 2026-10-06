@@ -74,6 +74,39 @@ const RECIPES = [
     ],
     notes: "Around 16 calories per tbsp"
   },
+  
+  
+      {
+    id: "pan-fried-tofu",
+    title: "Pan Fried Tofu",
+    tags: ["meal"],
+    time: "1 hour",
+    serves: "many",
+    intro: "Tofu lightly fried.",
+    ingredients: [
+      "1 package of extra firm tofu",
+      "2 tbsp of corn starch",
+      "salt",
+      "PAM spray",
+      "2 tsp of salt",
+      "Kraft Sweet and Sour sauce",
+      "Great Value Sweet Chili sauce"
+      
+    ],
+    steps: [
+      "Open the tofu, and press it between plates for about 20-30 minutes",
+      "Cut it horizontally, then cut into about 1 inch squares",
+      "Put the corn starch into a very small bowl.",
+      "Heat the skillet to a low-medium heat",
+      "Once ready to start cooking, spray with PAM and a little salt right ont he pan",
+      "Dip each piece into the corn starch, just two sides, and place on the pan",
+      "Once all pieces are on the pan, let cook on Low-Medium for about 10 minutes",
+      "Spray all the pieces, and then flip them over for another 10 minutes or so using thongs",
+      "Once they have cooked, if time is available, flip them onto any side that is still white",
+      "Usually takes about 20 minutes to finish cooking."
+    ],
+    notes: "Served with 225 calories of white rice, 470 per person plus any sauce"
+  },
 
   {
     id: "chicken-soup",

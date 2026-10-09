@@ -18,11 +18,11 @@ const RECIPES = [
 
 
 
-
+  
     {
     id: "harty-har-stew",
     title: "Harty Har Stew",
-    tags: ["stew", "low-calorie", "slow-cooker"],
+    tags: ["stew/soup", "slow-cooker"],
     time: "2 hours",
     serves: "2",
     intro: "Uses the gluten free Pioneer brown gravy, which does have beef boullion.",
@@ -31,8 +31,7 @@ const RECIPES = [
       "1 can of sliced carrots",
       "1 can of peas",
       "1/2 tsp of chicken boullion",
-      "1/2 package of Piooner gluten free brown gravy",
-      "Fresh basil to serve"
+      "1/2 package of Piooner gluten free brown gravy"
     ],
     steps: [
       "Save the juice from the potatoes, and if needed, some of the carrot juice.",
@@ -81,7 +80,7 @@ const RECIPES = [
     title: "Pan Fried Tofu",
     tags: ["meal"],
     time: "1 hour",
-    serves: "many",
+    serves: "2",
     intro: "Tofu lightly fried.",
     ingredients: [
       "1 package of extra firm tofu",
@@ -106,32 +105,6 @@ const RECIPES = [
       "Usually takes about 20 minutes to finish cooking."
     ],
     notes: "Served with 225 calories of white rice, 470 per person plus any sauce"
-  },
-
-  {
-    id: "chicken-soup",
-    title: "Classic Chicken Soup",
-    tags: ["comfort-food"],
-    time: "1 hour",
-    serves: "4–6",
-    intro: "Simple and restorative. Great for a cold day or when you're under the weather.",
-    ingredients: [
-      "1 whole chicken or 4 bone-in thighs",
-      "3 carrots, sliced",
-      "3 celery stalks, sliced",
-      "1 onion, diced",
-      "3 cloves garlic",
-      "6 cups chicken broth",
-      "Salt, pepper, fresh parsley"
-    ],
-    steps: [
-      "Place chicken in a large pot with broth and enough water to cover. Bring to a boil.",
-      "Skim any foam from the surface, then reduce to a simmer.",
-      "Add onion, garlic, carrots, and celery. Simmer 45 minutes.",
-      "Remove chicken, shred the meat, and return it to the pot. Discard bones.",
-      "Season to taste, stir in fresh parsley, and serve."
-    ],
-    notes: "Add egg noodles or rice in the last 10 minutes if you like a heartier soup."
   }
 
 ];

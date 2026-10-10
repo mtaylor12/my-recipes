@@ -74,7 +74,29 @@ const RECIPES = [
     notes: "Around 16 calories per tbsp"
   },
   
-  
+{
+	id: "mac-&-cheese-casserole",
+	title: "Mac & Cheese Casserole",
+	tags: {"high calorie"},
+	time: "1.5 hours",
+	serves: "2",
+	intro: "From Larry Dennis and Chris.",
+	ingredients: [
+		"1 1/4 cup of gluten free maccaroni about 1000 cal.",
+		"8 slices of Velvetta cheese about 560 cal.",
+		"2 tbsp butter 100 cal.",
+		"salt",
+		"1 can corn ~ 310 cal "
+	],
+	steps: [
+		"Cook maccaroni to done but still very hard and chewey.",
+		"Heat butter and add accaroni & cheese",
+		"After several minutes add the corn and salt WELL.",
+		"Put in casserole dish and bake at 400 for 20 minutes."
+	],
+	notes: "About 985 calories each. Buy bigger pants"
+	},
+
       {
     id: "pan-fried-tofu",
     title: "Pan Fried Tofu",

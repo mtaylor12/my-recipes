@@ -22,7 +22,7 @@ const RECIPES = [
     {
     id: "harty-har-stew",
     title: "Harty Har Stew",
-    tags: ["stew/soup", "slow-cooker"],
+    tags: ["stew", "slow-cooker"],
     time: "2 hours",
     serves: "2",
     intro: "Uses the gluten free Pioneer brown gravy, which does have beef boullion.",

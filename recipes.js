@@ -77,7 +77,7 @@ const RECIPES = [
 {
 	id: "mac-and-cheese-casserole",
 	title: "Mac & Cheese Casserole",
-	tags: {"high calorie"},
+	tags: ["high calorie"],
 	time: "1.5 hours",
 	serves: "2",
 	intro: "From Larry Dennis and Chris.",

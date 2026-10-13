@@ -22,7 +22,7 @@ const RECIPES = [
     {
     id: "harty-har-stew",
     title: "Harty Har Stew",
-    tags: ["stew", "slow-cooker"],
+    tags: ["stew"],
     time: "2 hours",
     serves: "2",
     intro: "Uses the gluten free Pioneer brown gravy, which does have beef boullion.",
@@ -80,11 +80,11 @@ const RECIPES = [
 	tags: ["high calorie"],
 	time: "1.5 hours",
 	serves: "2",
-	intro: "From Larry Dennis and Chris.",
+	intro: "From Larry and Chris - a cheesy and corny maccaroni treat.",
 	ingredients: [
-		"1 1/4 cup of gluten free maccaroni about 1000 cal.",
-		"8 slices of Velvetta cheese about 560 cal.",
-		"2 tbsp butter 100 cal.",
+		"1 1/4 cup of gluten free maccaroni ~ 1000 cal.",
+		"8 slices of Velvetta cheese ~ 560 cal.",
+		"2 tbsp butter ~ 100 cal.",
 		"salt",
 		"1 can corn ~ 310 cal "
 	],
@@ -94,7 +94,7 @@ const RECIPES = [
 		"After several minutes add the corn and salt WELL.",
 		"Put in casserole dish and bake at 400 for 20 minutes."
 	],
-	notes: "About 985 calories each. Buy bigger pants"
+	notes: "About 985 calories each"
 	},
 
       {

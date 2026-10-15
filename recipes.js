@@ -22,7 +22,7 @@ const RECIPES = [
     {
     id: "harty-har-stew",
     title: "Harty Har Stew",
-    tags: ["stew"],
+    tags: ["meal"],
     time: "2 hours",
     serves: "2",
     intro: "Uses the gluten free Pioneer brown gravy, which does have beef boullion.",
@@ -77,10 +77,10 @@ const RECIPES = [
 {
 	id: "mac-and-cheese-casserole",
 	title: "Mac & Cheese Casserole",
-	tags: ["high calorie"],
+	tags: ["high calorie", "meal"],
 	time: "1.5 hours",
 	serves: "2",
-	intro: "From Larry and Chris - a cheesy and corny maccaroni treat.",
+	intro: "From Larry and Chris.",
 	ingredients: [
 		"1 1/4 cup of gluten free maccaroni ~ 1000 cal.",
 		"8 slices of Velvetta cheese ~ 560 cal.",
@@ -94,7 +94,7 @@ const RECIPES = [
 		"After several minutes add the corn and salt WELL.",
 		"Put in casserole dish and bake at 400 for 20 minutes."
 	],
-	notes: "About 985 calories each"
+	notes: "About 985 calories each."
 	},
 
       {
@@ -126,7 +126,7 @@ const RECIPES = [
       "Once they have cooked, if time is available, flip them onto any side that is still white",
       "Usually takes about 20 minutes to finish cooking."
     ],
-    notes: "Served with 225 calories of white rice, 470 per person plus any sauce"
+    notes: "Served with 225 calories of white rice, 470 per person (plus any sauce)"
   }
 
 ];

@@ -292,5 +292,11 @@
 
   render();
 </script>
+<script>
+  window.addEventListener('beforeunload', (event) => {
+      event.preventDefault();
+      event.returnValue = ''; // Required for Chrome / Edge / Firefox
+  });
+</script>
 </body>
 </html>

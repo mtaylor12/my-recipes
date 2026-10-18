@@ -30,6 +30,7 @@ const RECIPES = [
       "1 can of sliced potatoes",
       "1 can of sliced carrots",
       "1 can of peas",
+      "30 calories of fresh chopped onions",
       "1/2 tsp of chicken boullion",
       "1/2 package of Piooner gluten free brown gravy"
     ],

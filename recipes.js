@@ -117,10 +117,13 @@ const RECIPES = [
       "1 1/2 tsp psyllium husk powder"
     ],
     steps: [
+      "---REGULAR OVEN---",
       "Place bread in oven on warm for 25 minutes to double it's size",
       "After 25 minutes, switch to 350 degrees, and bake for 45-50 minutes",
+      "---TOASTER OVEN---",
       "If using small oven, to double size at first, place on warm for 20 minutes",
-      "If using small oven, 400 degrees for 45 minutes, 20 minutes of it on broile, 25 on bake",
+      "If using small oven, 400 degrees for 45 minutes, 20 minutes of it on broil, 25 on bake",
+      "CONTINUE BELOW",
       "Invert onto cooling rack and cool completely before slicing",
       "Best fresh or slice and place in freezer ziplock removing all air, put in toaster or microwwave to eat."
     ],

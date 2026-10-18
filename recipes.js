@@ -44,7 +44,7 @@ const RECIPES = [
     notes: "255 each"
   },
 
-      {
+   {
     id: "banana-ketchup",
     title: "Banana Ketchup",
     tags: ["condiment"],
@@ -117,9 +117,9 @@ const RECIPES = [
       "1 1/2 tsp psyllium husk powder"
     ],
     steps: [
-      "Preheat regular oven to 350 degrees",
-      "Place bread on warm for 25 minutes to double it's size",
+      "Place bread in oven on warm for 25 minutes to double it's size",
       "After 25 minutes, switch to 350 degrees, and bake for 45-50 minutes",
+      "If using small oven, to double size at first, place on warm for 20 minutes",
       "If using small oven, 400 degrees for 45 minutes, 20 minutes of it on broile, 25 on bake",
       "Invert onto cooling rack and cool completely before slicing",
       "Best fresh or slice and place in freezer ziplock removing all air, put in toaster or microwwave to eat."
@@ -127,7 +127,29 @@ const RECIPES = [
     notes: "Around 1802 total, if 20 slices at 3/4 inch thick - about 90 cal. a slice"
   },
 
-      {
+  {
+    id: "oatmeal-raisin-pb-cookies",
+    title: "Oatmeal Raisin PB Cookies",
+    tags: ["dessert"],
+    time: "30 minutes",
+    serves: "around 18 cookies",
+    intro: "Yummy oatmeal raisin cookies, gluten free!",
+    ingredients: [
+      "1/2 cup sugar",
+      "1/2 cup peanut butter",
+      "1 egg",
+      "1/2 cup raisins",
+      "1 cup gluten free oats"
+    ],
+    steps: [
+      "Preheat oven to 350 degrees",
+      "Bake for 10-12 minutes",
+      "Spoon them on cookie sheet for 1.5 tablespoon scoop."
+    ],
+    notes: "These do not need to be flattened - total calories of mix around 1690, if 18 cookies 94 cal. each."
+  },
+
+  {
     id: "pan-fried-tofu",
     title: "Pan Fried Tofu",
     tags: ["meal"],

@@ -98,6 +98,35 @@ const RECIPES = [
 	notes: "About 985 calories each."
 	},
 
+  {
+    id: "gluten-free-bread",
+    title: "Gluten Free Bread",
+    tags: ["bread"],
+    time: "1.5 hours",
+    serves: "many",
+    intro: "Gluten free sliced bread.",
+    ingredients: [
+      "3 cups of gluten free flour",
+      "1 tbsp instant yeast",
+      "2 tbsp sugar",
+      "1/2 cup instant milk powder",
+      "2 tbsp instant potato flakes",
+      "1 egg (put in warm/hot water before adding)",
+      "1 3/4 cup of water (slightly warmer than room temp) - add a little more if dry",
+      "1 tbsp butter, softened (2 becomes more moist, if wanted)",
+      "1 1/2 tsp psyllium husk powder"
+    ],
+    steps: [
+      "Preheat regular oven to 350 degrees",
+      "Place bread on warm for 25 minutes to double it's size",
+      "After 25 minutes, switch to 350 degrees, and bake for 45-50 minutes",
+      "If using small oven, 400 degrees for 45 minutes, 20 minutes of it on broile, 25 on bake",
+      "Invert onto cooling rack and cool completely before slicing",
+      "Best fresh or slice and place in freezer ziplock removing all air, put in toaster or microwwave to eat."
+    ],
+    notes: "Around 1802 total, if 20 slices at 3/4 inch thick - about 90 cal. a slice"
+  },
+
       {
     id: "pan-fried-tofu",
     title: "Pan Fried Tofu",

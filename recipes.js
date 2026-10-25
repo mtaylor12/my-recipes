@@ -131,6 +131,33 @@ const RECIPES = [
   },
 
   {
+    id: "gluten-free-chocolate-chip-cookies",
+    title: "Gluten Free Chocolate Chip Cookies",
+    tags: ["dessert"],
+    time: "30 minutes",
+    serves: "It makes about 15-16 cookies",
+    intro: "Gluten free chocolate chip cookies.",
+    ingredients: [
+      "1 cup of flour",
+      "1/4 tsp of salt",
+      "2 tsp vanilla flavoring",
+      "1 egg",
+      "1 1/2 tbsp softened butter",
+      "3/4 cup of brown sugar",
+      "4 servings of chocolate chips ~ 420 calories",
+      "2 tbsp of milk powder (what 1/2 cup of milk would be) ~ 40 cal."
+    ],
+    steps: [
+      "Mix dry ingredients first, then liquid ones.",
+      "Should be soft and squishy, like thick pancake batter.",
+      "Spoon onto cookie sheet with 1.5 tbsp scoop.",
+      "Do not add water unless necessary",
+      "Bake in oven for 10-12 minutes at 350 degrees"
+    ],
+    notes: "Around 1536 total calories, or 768 if split for 2 people)"
+  },
+
+  {
     id: "oatmeal-raisin-pb-cookies",
     title: "Oatmeal Raisin PB Cookies",
     tags: ["dessert"],

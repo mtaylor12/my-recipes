@@ -144,7 +144,7 @@ const RECIPES = [
       "1 egg",
       "1 1/2 tbsp softened butter",
       "3/4 cup of brown sugar",
-      "4 servings of chocolate chips ~ 420 calories",
+      "6 servings of chocolate chips, at 70 cal. each ~ 420 calories",
       "2 tbsp of milk powder (what 1/2 cup of milk would be) ~ 40 cal."
     ],
     steps: [

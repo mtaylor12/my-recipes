@@ -183,9 +183,9 @@ const RECIPES = [
     id: "peanut-butter-cookies",
     title: "Peanut Butter Cookies",
     tags: ["dessert"],
-    time: "15-25 minutes",
+    time: "30 minutes",
     serves: "2 or more people",
-    intro: ".",
+    intro: "Gooey peanut butter cookies, 3 ingredients!",
     ingredients: [
       "1 cup of sugar",
       "1 cup of peanut butter",
@@ -195,7 +195,7 @@ const RECIPES = [
       "Preheat oven to 350 degrees",
       "For small oven add 5 minutes and also rotate tray in the middle of baking",
       "Spoon them on cookie sheet with 1.5 tablespoon scoop",
-      "Cook 10 to 12 minutes"
+      "Cook 10 to 12 minutes, check with toothpick"
     ],
     notes: "Around 2300 total for full batch, 1150 for half batch, 96 calories per cookie"
   },

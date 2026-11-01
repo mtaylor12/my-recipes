@@ -180,6 +180,25 @@ const RECIPES = [
   },
 
   {
+    id: "peanut-butter-cookies",
+    title: "Peanut Butter Cookies",
+    tags: ["dessert"],
+    time: "15-25 minutes",
+    serves: "Around 18 cookies for full batch",
+    intro: ".",
+    ingredients: [
+      "1 cup of sugar",
+      "1 cup of peanut butter",
+      "2 eggs"
+    ],
+    steps: [
+      "Preheat oven to 350 degrees (for small oven rotate and add 5 minutes)",
+      "Cook 10 to 12 minutes"
+    ],
+    notes: "Around 2300 total for full batch, 1150 for half batch, 96 calories per cookie"
+  },
+
+  {
     id: "pan-fried-tofu",
     title: "Pan Fried Tofu",
     tags: ["meal"],

@@ -174,7 +174,7 @@ const RECIPES = [
     steps: [
       "Preheat oven to 350 degrees",
       "Bake for 10-12 minutes",
-      "Spoon them on cookie sheet for 1.5 tablespoon scoop."
+      "Spoon them on cookie sheet with 1.5 tablespoon scoop."
     ],
     notes: "These do not need to be flattened - total calories of mix around 1690, if 18 cookies 94 cal. each."
   },
@@ -184,7 +184,7 @@ const RECIPES = [
     title: "Peanut Butter Cookies",
     tags: ["dessert"],
     time: "15-25 minutes",
-    serves: "Around 18 cookies for full batch",
+    serves: "2 or more people",
     intro: ".",
     ingredients: [
       "1 cup of sugar",
@@ -192,7 +192,9 @@ const RECIPES = [
       "2 eggs"
     ],
     steps: [
-      "Preheat oven to 350 degrees (for small oven rotate and add 5 minutes)",
+      "Preheat oven to 350 degrees",
+      "For small oven add 5 minutes and also rotate tray in the middle of baking",
+      "Spoon them on cookie sheet with 1.5 tablespoon scoop",
       "Cook 10 to 12 minutes"
     ],
     notes: "Around 2300 total for full batch, 1150 for half batch, 96 calories per cookie"

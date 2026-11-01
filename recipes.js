@@ -199,6 +199,30 @@ const RECIPES = [
     ],
     notes: "Around 2300 total for full batch, 1150 for half batch, 96 calories per cookie"
   },
+  {
+    id: "peanut-butter-fluffy-cookies",
+    title: "Peanut Butter Fluffy Cookies",
+    tags: ["dessert"],
+    time: "30 minutes",
+    serves: "Two or more people",
+    intro: "Peanut butter cookie with a fluffy cake like consistency.",
+    ingredients: [
+      "1 cup sugar",
+      "1 cup peanut butter",
+      "1 cup gluten free flour",
+      "1/2 cup of water",
+      "4 tsp baking powder",
+      "1 tsp banilla",
+      "2 eggs"
+    ],
+    steps: [
+ "Preheat oven to 350 degrees",
+      "For small oven add 5 minutes and also rotate tray in the middle of baking",
+      "Spoon them on cookie sheet with 1.5 tablespoon scoop",
+      "Cook 10 to 12 minutes, check with toothpick"
+    ],
+    notes: "Approximately 2740 calories for whole batch"
+  },
 
   {
     id: "pan-fried-tofu",

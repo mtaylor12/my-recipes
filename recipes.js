@@ -113,7 +113,7 @@ const RECIPES = [
     "About a cup of Velveeta cheese"
 	],
 	steps: [
-		"Put maccaroni and both corn cans in a dish and stir well",
+		"Put maccaroni (uncooked!) and both corn cans in a dish and stir well",
 		"Slice butter and put on top",
 		"Slice cheese in about 1/4 inch thick slices, enough to cover the top",
 		"Cover with foil and bake for 30 minutes at 350 degrees",

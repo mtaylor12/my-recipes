@@ -81,7 +81,7 @@ const RECIPES = [
 	tags: ["high calorie", "meal"],
 	time: "1.5 hours",
 	serves: "2",
-	intro: "From Larry and Chris.",
+	intro: "Modified for lower calories.",
 	ingredients: [
 		"1 1/4 cup of gluten free maccaroni ~ 1000 cal.",
 		"8 slices of Velvetta cheese ~ 560 cal.",
@@ -97,7 +97,31 @@ const RECIPES = [
 	],
 	notes: "About 985 calories each."
 	},
-
+  
+  {
+	id: "original-mac-and-cheese-casserole",
+	title: "Chris and Larry's Mac & Cheese Casserole",
+	tags: ["high calorie", "meal"],
+	time: "1.5 hours",
+	serves: "2",
+	intro: "Original high calorie version.",
+	ingredients: [
+		"1 cup of maccaroni",
+		"1 stick of butter",
+		"1 can of cream corn",
+		"1 can of whole kernel corn",
+    "About a cup of Velveeta cheese"
+	],
+	steps: [
+		"Put maccaroni and both corn cans in a dish and stir well",
+		"Slice butter and put on top",
+		"Slice cheese in about 1/4 inch thick slices, enough to cover the top",
+		"Cover with foil and bake for 30 minutes at 350 degrees",
+    "Uncover, stir and bake (uncovered) for 30 minutes or until pasta is done to desired consistency",
+    "Stir well, cool 5 minutes and serve."
+	],
+	notes: "Calories are top secret."
+	},
   {
     id: "gluten-free-bread",
     title: "Gluten Free Bread",
